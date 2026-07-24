@@ -1,72 +1,42 @@
-# Enterprise Active Directory Lab
+# Active Directory Lab
 
-## Overview
+This repository will document a rebuilt Windows Server Active Directory lab based on skills practiced during my cybersecurity bootcamp.
 
-This project demonstrates the deployment and administration of a Windows Server Active Directory environment built in Oracle VirtualBox as part of my cybersecurity and IT training.
+## Prior Hands-On Experience
 
-The objective of this lab was to gain hands-on experience with enterprise identity management, Windows Server administration, and common IT support tasks.
+- Creating and managing users and security groups
+- Organizing objects with Organizational Units (OUs)
+- Resetting passwords and managing account settings
+- Creating and applying Group Policy Objects (GPOs)
+- Working with DNS and DHCP in a Windows Server environment
+- Joining Windows client systems to a domain
+- Using Oracle VirtualBox for virtualization
 
----
+## Rebuild Plan
 
-## Technologies Used
+1. Deploy Windows Server in Oracle VirtualBox
+2. Install Active Directory Domain Services
+3. Promote the server to a domain controller
+4. Configure DNS and DHCP
+5. Create departmental OUs, users, and groups
+6. Join a Windows client to the domain
+7. Apply password, lockout, desktop, and security policies
+8. Document troubleshooting steps and validation tests
 
-- Windows Server
-- Active Directory Domain Services (AD DS)
-- DNS
-- DHCP
-- Group Policy
-- Oracle VirtualBox
-- Windows 11 Client
+## Planned Evidence
 
----
+- Network diagram
+- Configuration screenshots
+- User and group structure
+- GPO examples
+- Domain-join verification
+- Troubleshooting notes
 
-## Skills Demonstrated
+## Status
 
-- Domain Controller installation
-- Active Directory deployment
-- User and Group creation
-- Organizational Unit (OU) management
-- Password policy configuration
-- Group Policy Object (GPO) creation
-- Domain Join
-- DNS configuration
-- DHCP configuration
-- Windows administration
-- Account troubleshooting
-
----
-
-## Lab Objectives
-
-- Deploy a Windows Server Domain Controller
-- Configure Active Directory Domain Services
-- Create Organizational Units
-- Create users and security groups
-- Apply Group Policies
-- Join client computers to the domain
-- Configure DNS and DHCP services
-- Test authentication and permissions
-
----
-
-## What I Learned
-
-This project strengthened my understanding of enterprise Windows administration, centralized authentication, user lifecycle management, and Active Directory infrastructure. It also improved my troubleshooting skills while configuring and maintaining a domain environment.
-
----
-
-## Future Improvements
-
-- Add multiple Domain Controllers
-- Configure Active Directory Certificate Services
-- Implement Roaming Profiles
-- Deploy Windows Server Update Services (WSUS)
-- Integrate Microsoft Entra ID (Azure AD)
-
----
+**Rebuild in progress.** This README intentionally distinguishes previous training experience from the new documented home-lab implementation.
 
 ## Author
 
-Arnaldo Cabrera
-
-CompTIA Security+ • Splunk Core Certified • IT Support • Networking • Cybersecurity
+**Arnaldo Cabrera**  
+CompTIA Security+ | IT Support | Windows | Active Directory | Networking
